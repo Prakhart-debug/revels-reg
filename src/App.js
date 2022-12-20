@@ -38,7 +38,7 @@ export default function App() {
         {/* Uncomment the next line to show the success message */}
         {/* <div class="success-message">Success! Thank you for registering</div> */}
         <input
-          id="first-name"
+          id="username"
           class="form-field"
           type="text"
           placeholder="Username"
@@ -49,7 +49,7 @@ export default function App() {
         {submitted && !values.Username ? <span>Please Enter your Username </span> : null}
 
         <input
-          id="last-name"
+          id="password"
           class="form-field"
           type="text"
           placeholder="Password"
