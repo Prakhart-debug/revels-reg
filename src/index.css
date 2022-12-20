@@ -1,19 +1,25 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
-
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,800);
+*{
+  box-sizing: border-box;
+}
 body {
-  background: #76b852;
+  background: rgb(193, 92, 3);
   display: flex;
   min-height: 100vh;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .form-container {
   width: 360px;
+  height: auto;
   background-color: white;
   margin: auto;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-  padding: 10px;
+  padding: 20px 10px 10px 10px;
+  right: 0px;
 }
 
 .register-form {
@@ -38,7 +44,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-span {
+span{
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   color: red;
@@ -54,12 +60,27 @@ input {
   border: 2px solid #ffa4a4;
 }
 
-button {
-  background: #4caf50;
+#submit-button {
+  background: rgb(193, 92, 3);
   color: white;
   cursor: pointer;
 }
 
 button:disabled {
-  cursor: default;
+  cursor:grab;
+}
+h1{
+  text-align: center;
+
+}
+h2{
+  text-align: center;
+  font-weight: 300;
+  
+}
+a{
+  text-align: right;
+}
+#remember{
+  text-align: right;
 }
